@@ -1,0 +1,119 @@
+
+#home {
+    
+}
+h2 {
+    font-size: 6em;
+    font-family: 'Sacramento', cursive;
+    border-bottom: 1px dashed #aaa;
+    line-height: 1;
+    margin-bottom: 50px;
+} 
+p,span {
+    font-size: 1.5em;
+    line-height: 2;
+    font-family: 'Quicksand', sans-serif;
+}
+.container-inner {
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+}
+
+#home .welcome_slides {
+    width: 100%;
+    position: relative;
+}
+
+#home .welcome_slides .single_slide {
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+}
+
+#home .welcome_slides  .slide-title {
+    width: 40%;
+    min-width: 400px;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    transform: translate(-50%, -20%);
+    margin: auto;
+    position: absolute;
+}
+
+.story-area-inner {
+    display: flex;
+}
+
+.story-image {
+    background-size: cover;
+    background-position: center;
+    margin-right: 50px;
+}
+
+.story-area-wrap {
+    
+}
+
+.banner-title {
+    text-align: center;
+    font-size: 6em;
+}
+
+.count-area-wrap {
+    background-size: cover;
+}
+
+#counter {
+    min-height: 95vh;
+    background-position: 0 60%;
+    background-size: cover;
+}
+
+.counter-content {
+    font-size: 5em;
+    line-height: 1;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    margin-bottom: 80px;
+}
+
+.counter-content span {
+    border-radius: 30px;
+    padding: 0 10px;
+    background-color: rgba(255,255,255,0.6);
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+}
+.date-venue h3{
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-family: 'Sacramento', cursive;
+    color: #1280d4;
+}
+
+.date-venue .date,.time {
+    font-size: 4em;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+.date-venue .time {
+    font-size: 3em;
+}
+
+.date-venue .wedding-wrap {
+    padding: 30px; 
+    margin-bottom: 30px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.date-venue .venue a {
+    color: #d2618e;
+}
+.date-venue .venue a span {
+    vertical-align: sub;
+}
