@@ -104,7 +104,10 @@ p,span {
 .date-venue .time {
     font-size: 3em;
 }
-
+.date-link:hover {
+	text-decoration: none;
+	border-bottom: 1px dotted #23527c;
+}
 .date-venue .wedding-wrap {
     padding: 30px; 
     margin-bottom: 30px;
