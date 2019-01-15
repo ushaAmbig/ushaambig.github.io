@@ -1,0 +1,62 @@
+/*-- for mobile ---*/
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+	h2 {
+		margin-top: 70px;
+		font-size: 5em;
+	}
+	.container-inner {
+		padding: 20px;
+    	width: 100%;
+	}
+	#counter {
+		min-height: 95vh;
+    	background-position: 90% 100%;
+    	background-size: 1300px;
+	}
+	.counter-content {
+		margin-bottom: 40px;
+		padding: 0 20px;
+		font-size: 4em;
+	}
+	.counter-content span:not(.clock-wrap){
+		padding: 5px 10px;
+		display: inline-block;
+		min-width: 100px;
+		line-height: normal;
+
+	}
+	#counter .counter-content span.clock-wrap {
+		font-size: 36px;
+		display: block;
+	}
+	#counter .counter-content span.clock-wrap span{
+		min-width: 40px;
+		margin-top: 20px;
+		padding: 5px 10px;
+		border-radius: 15px;
+	}
+	.wedding-wrap {
+		border: 1px solid rgba(35, 82, 123, 0.2);
+		padding: 0 20px;
+	}
+	.story-area-inner {
+		display: block;
+	}
+	.story-image {
+		height: 400px;
+		background-size: cover;
+    	background-position: bottom;
+    	margin-right: auto;
+    	margin-bottom: 50px;
+	}
+}
+
+/*-- for tablet portrait--*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+/*-- for tablet landscape--*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+}

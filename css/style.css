@@ -9,7 +9,7 @@ h2 {
     line-height: 1;
     margin-bottom: 50px;
 } 
-p,span {
+p {
     font-size: 1.5em;
     line-height: 2;
     font-family: 'Quicksand', sans-serif;
@@ -68,9 +68,11 @@ p,span {
 
 #counter {
     min-height: 95vh;
-    background-position: 20% 60%;
-    background-size: cover;
+	background-position: bottom;
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
 
 .counter-content {
     font-size: 5em;
@@ -80,11 +82,13 @@ p,span {
     margin-bottom: 80px;
 }
 
-.counter-content span {
-    border-radius: 30px;
+.counter-content span:not(.clock-wrap) {
+    border-radius: 20px;
+	font-size: 1em;
     padding: 0 10px;
-    background-color: rgba(255,255,255,0.6);
-    box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.1);
+	box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+    background-image: linear-gradient(to bottom right, #efefef, #d4d4d4);
 }
 .date-venue h3{
     font-size: 4em;
@@ -117,6 +121,14 @@ p,span {
 .date-venue .venue a {
     color: #d2618e;
 }
-.date-venue .venue a span {
-    vertical-align: sub;
+
+.date-venue .venue.wedding a .glyphicon {
+	transition: all 0.5s;
+    transform-origin: bottom;
+}
+.date-venue .venue.wedding a:hover .glyphicon {
+    transform: scale(1.5);
+}
+.date-venue .venue.wedding .glyphicon {
+	color: #ff3190;
 }
