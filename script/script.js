@@ -33,3 +33,29 @@ var getTimeDate = function () {
 
 getTimeDate();
 setInterval(getTimeDate, 1000);
+
+
+
+var initEvents = (function() {
+	var menuElm = document.getElementById("burger-menu-btn"),
+		menurap = document.getElementById("burger-menu-wrap");
+
+	menuElm.addEventListener("click",function(e){
+		if(menurap.className.indexOf("closed") === -1 ) {
+			menurap.classList.add("closed");
+			menurap.classList.remove("open");
+		} else {
+			menurap.classList.add("open");
+			menurap.classList.remove("closed");
+		}
+		e.stopPropagation();
+	});
+
+	document.addEventListener("click",function(e){
+		if(menurap.className.indexOf("closed") === -1 && menurap.className.indexOf("open") !== -1 ) {
+			menurap.classList.add("closed");
+			menurap.classList.remove("open");
+		}
+	});
+
+})();
