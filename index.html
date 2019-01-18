@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/image-slider.css">
     <!-- Responsive css -->
     <link rel="stylesheet" href="css/responsive.css">
 	<script type="text/javascript" src="script/plug-in/smooth-scroll.js"></script>
@@ -105,6 +106,60 @@
         </div>
     </section>
     
+	<section class="gallery-area" id="gallery">
+        <div class="gallery-area-wrap container-inner">
+			<h2>Gallery</h2>
+			<div class="gallery-area-inner">
+				<div class="slider-wrap" style="min-height: 50px;">
+				<!-- Jssor Slider Begin -->
+				<div  class="slider-outer" id="slider1_container" style="visibility: hidden; position: relative; margin: 0 auto;
+				top: 0px; left: 0px; overflow: hidden;">
+					<!-- Loading Screen -->
+					<div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+						<img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="images/svg/spin.svg" />
+					</div>
+
+					<!-- Slides Container -->
+					<div class="slider-inner" data-u="slides" style="position: absolute; left: 0px; top: 0px; overflow: hidden;">
+						<div>
+							<img data-u="image" src="images/gallery/DSC00485.jpeg" />
+						</div>
+						<div>
+							<img data-u="image" src="images/gallery/DSC00500.jpeg" />
+						</div>
+						<div>
+							<img data-u="image" src="images/gallery/DSC00708.jpeg" />
+						</div>
+					</div>
+
+					<!--#region Bullet Navigator Skin Begin -->
+					<div data-u="navigator" class="jssorb031" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+						<div data-u="prototype" class="i" style="width:16px;height:16px;">
+							<svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+								<circle class="b" cx="8000" cy="8000" r="5800"></circle>
+							</svg>
+						</div>
+					</div>
+					<!--#endregion Bullet Navigator Skin End -->
+
+					<!--#region Arrow Navigator Skin Begin -->
+					<div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+						<svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+							<polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+						</svg>
+					</div>
+					<div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+						<svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+							<polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+						</svg>
+					</div>
+					<!--#endregion Arrow Navigator Skin End -->
+				</div>
+				<!-- Jssor Slider End -->
+				</div>
+			</div>
+		</div>
+	</section>
 	<section class="map-area" id="where">
         <div class="story-area-wrap container-inner">
 			<h2>Venue</h2>
@@ -131,6 +186,22 @@
 	</section>
 	<section>
 	</section>
+
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="script/plug-in/jquery-1.9.1.min.js"></script>
+    <script src="script/plug-in/bootstrap.min.js"></script>
+    <script src="script/plug-in/docs.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="script/plug-in/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- jssor slider scripts-->
+    <script type="text/javascript" src="script/plug-in/jssor.slider.min.js"></script>
+    <script>
+    </script>
+
     <script src="script/script.js"></script>
+
 </body>
 </html>

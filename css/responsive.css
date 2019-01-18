@@ -49,6 +49,19 @@
     	margin-right: auto;
     	margin-bottom: 50px;
 	}
+	.slider-blur-bg {
+		width: 100%;
+	}
+	.slider-inner,.slider-outer {
+		width: 750px; height: 1000px;
+	}
+	.slider-wrap {
+		margin-left: -20px;
+	}
+	.jssora051 {
+		display: none
+	}
+	.jssora051 .a {fill:none;stroke:#ffffff; }
 }
 
 /*-- for tablet portrait--*/
