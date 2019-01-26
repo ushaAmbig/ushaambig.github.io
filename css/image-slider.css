@@ -36,7 +36,7 @@
 	position: absolute;
 	cursor: pointer;
 	background-color: rgba(255, 255, 255, 0.51);
-	border-radius: 15px;
+	border-radius: 100%;
 }
 .jssora051 .a {fill:none;stroke:#1f1f1f;stroke-width:360;stroke-miterlimit:10;}
 .jssora051:hover {opacity:.8;}

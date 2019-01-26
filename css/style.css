@@ -225,7 +225,7 @@ li.nav-list-item a:hover::after{
 .date-venue .wedding-wrap {
     padding: 30px; 
     margin-bottom: 30px;
-    background-color: rgba(255,255,255,0.5);
+    background-color: rgba(255,255,255,0.8);
 }
 
 .date-venue .venue a {
@@ -241,4 +241,11 @@ li.nav-list-item a:hover::after{
 }
 .date-venue .venue.wedding .glyphicon {
 	color: #ff3190;
+}
+.calender.button {
+	padding: 10px 15px;
+	display: block;
+	margin: 5px 0;
+	width: 200px;
+	border-radius: 5px;
 }
